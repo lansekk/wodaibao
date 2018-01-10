@@ -11,3 +11,6 @@
 ### 其他说明
 1. 数据库名为wdb
 2. 数据库脚本在db文件夹里，能下载下来
+3. profit端口9080 report端口9081
+4. profit访问地址http://localhost:9080/profit/v1/page/main
+5. report访问地址http://localhost:9081/report/v1/page/main
