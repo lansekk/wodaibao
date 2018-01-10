@@ -12,10 +12,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="server-common" target="1.8" />
+      <module name="server-common" target="1.5" />
       <module name="server-profit" target="1.8" />
       <module name="server-report" target="1.8" />
-      <module name="wodaibao" target="1.8" />
+      <module name="wodaibao" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
