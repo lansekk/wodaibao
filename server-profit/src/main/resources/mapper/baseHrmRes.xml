@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wodaibao.profit.dao.LoginDao">
+    <select id="getHrmRes" resultType="BaseHrmResDTO">
+        SELECT id,
+                hrm_name hrmName
+          FROM base_hrm_res
+         WHERE hrm_name = #{hrmName}
+    </select>
+
+    <!-- 查询用户列表 -->
+    <select id="listHrmRes" resultType="BaseHrmResDTO">
+        SELECT id,
+                hrm_name hrmName
+          FROM base_hrm_res
+    </select>
+</mapper>
